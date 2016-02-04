@@ -1,10 +1,16 @@
-# unit9lesson1_startercode
+# unit9lesson2_forms
 
-In this project you will be linking pages together use the `a` tag
+In this project you will be creating a form.
 
-To do this you will need to do the following:
+The <form> tag and one <input> tag are already
+created for you. Add the following inputs:
 
-1. On index.html create three links. One to each of the files in the pages folder.
-2. On page1.html create three links. One to the other 2 pages in the pages folder and one to index.html
-3. On page2.html create three links. One to the other 2 pages in the pages folder and one to index.html
-4. On page3.html create three links. One to the other 2 pages in the pages folder and one to index.html
+- Last Name text box
+- GitHub Username text box
+- Age dropdown
+- Graduation year radio buttons
+- Favorite Musicians checkboxes
+
+
+Use the Test button to check your work. It will pop up 
+an alert that displays the values of each input.

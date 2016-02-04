@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ScriptEd Unit 9: Linking pages</title>
+	<title>ScriptEd Unit 9: Forms</title>
+	<style>
+		
+	</style>
+	<link href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css" rel="stylesheet" integrity="sha256-uQF1SuiI+Q1kVFZVfnPtXVYdLX18aGvEVJpppHu9FB8= sha512-VKST5syz/NVig4bnwlU49wNPfro91gtfzdIaqWEG5yp5ymN3t6g46iVm9kvhC5lkcVqWhvrwXmernTgLEmTpjg==" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 </head>
 <body>
-		<h1>This site will link pages locally and externally</h1>
-		<a href="pages/page1.html">Page 1</a>
-		<a href="pages/page2.html">Page 2</a>
-		<a href="pages/page3.html">Page 3</a>
-		<br><img src="images/ScriptEd.png"></br>
+	<img src="images/ScriptEd.png">
+	<h1>My Info</h1>
+	
+	<form id="myForm">
+		First Name:
+		<br>
+		<input type="text" name="first">
+		<br>
+		
+		Last Name:
+		<br>
+		<!-- Put a text box here -->
+		
+		<br>
+		
+		GitHub Username: 
+		<br>
+		<!-- Put a text box here -->
+		
+		<br>
+
+		Age: 
+		<br>
+		<!-- Put a dropdown select with multiple age options here -->
+
+		<br>
+		
+		Graduation Year: 
+		<br>
+		<!-- Put several radio buttons for different years -->
+		
+		<br>
+		
+		Favorite Musicians: 
+		<br>
+		<!-- Put several checkboxes with the names of different musicians -->
+		
+		<br>
+		<br>
+		
+		<input type="submit" value="Test" id="testButton">
+		<input type="submit" value="Submit" id="submitButton">
+	</form>
+	
+	
+	
+	
+	
+	
+	<script src="js/forms.js"></script>
 </body>
 </html>
